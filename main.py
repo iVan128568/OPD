@@ -439,8 +439,8 @@ requests = Requests("assets/requests.db")
 plan = Plan("assets/plan.db")
 
 bots = Bots(
-    "7837561850:AAF6NI8auEnS6IpuVpULMC-VYzfY0mFbGjE", 
-    "vk1.a.5e7Qf-wv7-KLbCcpn0zoLpG-gKY7E5rcdsDrPfWKIx2_hxTWDw_hJLvT_5f5zJ-v-6-yW1grwJSX6Cwqs0TY9IBdq2Cq5gDZznRQJ_gKwbamRK_K1E0KCSy2HHR2xIlUBAgbK_GXHwrY7YiYrV7xbSuoEDNSbgKA_LKihSDG9CBC2113GtEKbGMn0eCR9XLoM7Ks2ivcZ21VFbt-RjwoRA", 
+    "tg_token тууууттт!!!!", 
+    "vk_token тууууттт!!!!", 
     users,
     default_response, 
     lack_of_rights_response, 
