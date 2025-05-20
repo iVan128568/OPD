@@ -394,7 +394,7 @@ def issues_handler(args: str, user):
 
         return reply + "Список проблем:\n" + list_issues(issues, count), False
 
-with open("assets\examples\sanitizing_instruction.txt", "r", encoding="utf-8") as file:
+with open("assets/examples/sanitizing_instruction.txt", "r", encoding="utf-8") as file:
     san_instruction_text = file.read()
 sanitizing_request = "Напишите /plan чтобы узнать график травли тараканов или /instruction, чтобы получить инструкцию по подготовке комнаты"
 def sanitizing_handler(args: str, user):
@@ -439,8 +439,8 @@ requests = Requests("assets/requests.db")
 plan = Plan("assets/plan.db")
 
 bots = Bots(
-    "tg_token тууууттт!!!!", 
-    "vk_token тууууттт!!!!", 
+    "тг токен", 
+    "вк токен", 
     users,
     default_response, 
     lack_of_rights_response, 
